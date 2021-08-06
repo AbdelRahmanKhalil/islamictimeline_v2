@@ -1,24 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import HeroSection from './components/HeroSection'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <HeroSection title="THE REVELATION BEGINS" paragraph="Archangel Gabriel meets Prophet Muhammad.
+                    Prophet Muhammad runs to his wife Khadija bint Khwaylid
+                    who introduces him to Waraqa ibn Nawfal, a hanif adhering to the religion of Abraham."  />
+    <HeroSection title="First Islamic Society" paragraph="Prophet Muhammad goes on Hegira (departure from Mecca to Medina). 
+    He's welcomed by the people of Medina. The event marks the birth of the Islamic Society." image="/img-2.jpg"/>
+    
+</>
   );
 }
 
