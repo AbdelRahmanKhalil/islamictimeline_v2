@@ -20,7 +20,8 @@ export default class HeroSection extends Component {
                 {background}
                 {/* <video src="/intro.mp4" autoPlay loop muted /> */}
 
-                <h1>{this.props.title}</h1>
+                <h1 class="entry-title">{this.props.title}</h1>
+                
                 <p>{this.props.paragraph}</p>
                 {/* <img src="/img-53.jpeg" /> */}
             </div>
